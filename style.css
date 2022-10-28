@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");/* Link to import the font*/
+
+:root{
+    --Grayishblue: hsl(220, 15%, 55%);  
+}
+
+body{
+    background-color: var(--Grayishblue);
+    font-family:sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5rem;
+    text-align: center;
+    background-color: white;
+    height: 250px;
+    width:  95px;
+    margin: 5% auto ;
+    border-radius: 20px;
+    margin-top: 13vh;
+    
+}
+
+.card-image {
+    height: 250px;
+    width:  250px; 
+    padding: 8px;
+    margin-top: -85px;
+    margin-left: -85px;
+    
+}
+img{
+    height: 100%;
+    width:  100%; 
+    border-radius: 20px;
+
+}
+.card-title{
+    font-size: 9px;
+    height: 70px;
+    width:  250px;
+    font-weight: bolder;
+    margin-top: -10px;
+    margin-left: -76px;
+}
+
+
+p {
+    font-size: 14px;
+    color: #7f8c9b;
+    height: 70px;
+    width:  250px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -76px;
+}
